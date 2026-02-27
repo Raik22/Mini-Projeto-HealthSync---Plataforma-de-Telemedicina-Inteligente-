@@ -1,5 +1,4 @@
-copilot/create-pasteamento-system
-# HealthSync – Plataforma de Telemedicina Inteligente
+HealthSync – Plataforma de Telemedicina Inteligente
 
 Este mini projeto tem como objetivo aplicar, na prática, os conhecimentos adquiridos em aula por meio da criação de um Documento de Arquitetura de Software. O foco é consolidar o entendimento dos conceitos arquiteturais, permitindo que o estudante planeje, organize e documente a estrutura de um sistema de forma clara e estruturada, seguindo a ideia proposta.
 
