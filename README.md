@@ -2,8 +2,6 @@
 
 Este mini projeto tem como objetivo aplicar, na prática, os conhecimentos adquiridos em aula por meio da criação de um Documento de Arquitetura de Software. O foco é consolidar o entendimento dos conceitos arquiteturais, permitindo que o estudante planeje, organize e documente a estrutura de um sistema de forma clara e estruturada, seguindo a ideia proposta.
 
-HealthSync - Plataforma de Telemedicina Inteligente 
-
 Descrição: Uma startup de saúde busca desenvolver uma plataforma de telemedicina que integre consultas online, monitoramento de pacientes via wearables e um sistema de recomendação de tratamentos baseado em IA. O objetivo é oferecer um serviço personalizado e acessível, com alta disponibilidade e segurança de dados sensíveis. 
 
 Desafios Arquiteturais: 
