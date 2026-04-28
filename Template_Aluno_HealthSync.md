@@ -37,7 +37,7 @@ Complexidade e Latência (Contra): A separação em microsserviços e a abstraç
 
 2.3 Architecture Decision Record (ADR) Principal
 Título: Adoção de Arquitetura Hexagonal para o Core da HealthSync
-Status: Aceite
+Status: Aceito
 Contexto: A análise da Fase 1 revelou que o modelo N-Tier tradicional estava a gerar um acoplamento excessivo entre a lógica de negócio e os detalhes de persistência. Para um sistema de saúde que exige alta Interoperabilidade e escalabilidade para dados de sensores IoT, é vital que o domínio seja agnóstico a detalhes técnicos e frameworks (MARTIN, 2017).
 Decisão:
 Decidimos implementar o padrão de Portas e Adaptadores. O "Core" da aplicação conterá apenas as regras de negócio de telemedicina e monitorização. Toda a comunicação externa (Bases de Dados, API de IA, Wearables) será feita através de interfaces definidas pelo domínio (Ports) e implementadas pela infraestrutura (Adapters).
@@ -69,5 +69,6 @@ SURPREENDA-ME! :D
 📚 Referências Bibliográficas
 Pressman, R. S. (2021). Engenharia de Software: Uma Abordagem Profissional. McGraw Hill. (Capítulos selecionados conforme o tema da aula).
 Richards, M., & Ford, N. (2020). Fundamentals of Software Architecture: An Engineering Approach. O'Reilly Media.
+Martin, R. C. (2017). Clean Architecture: A Craftsman's Guide to Software Structure and Design. Prentice Hall.
 C4 Model for Software Architecture. (s.d.). Disponível em: https://c4model.com/
 Architecture Decision Records (ADRs). (s.d.). Disponível em: https://adr.github.io/
