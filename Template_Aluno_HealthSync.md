@@ -30,7 +30,7 @@ Preencher e entregar no AVA ao final do Ciclo 2.
 
 2.2 Estilo Arquitetural Escolhido
 Estilo Principal: Arquitetura Hexagonal (Ports and Adapters) com Microsserviços.
-Justificativa e Trade-offs: A escolha visa resolver o problema de acoplamento detetado na Fase 1, garantindo que as regras de negócio de telemedicina não dependam de frameworks ou bases de dados.
+Justificativa e Trade-offs: A escolha visa resolver o problema de acoplamento detectado na Fase 1, garantindo que as regras de negócio de telemedicina não dependam de frameworks ou bases de dados.
 Isolamento do Domínio (Pró): Garante a Integridade de Dados e facilita a manutenção, pois as mudanças na infraestrutura (ex: trocar a API de IA) não afetam o núcleo do sistema.
 Testabilidade e Segurança (Pró): Permite testar a lógica de negócio isoladamente através de mocks nas portas, essencial para a conformidade com LGPD/HIPAA.
 Complexidade e Latência (Contra): A separação em microsserviços e a abstração hexagonal aumentam a complexidade de implementação e podem introduzir uma pequena latência de rede entre componentes, o que exige uma monitorização rigorosa para manter a Disponibilidade.
@@ -44,7 +44,7 @@ Decidimos implementar o padrão de Portas e Adaptadores. O "Core" da aplicação
 Justificativa:
 Redução da Dívida Técnica: Evita que a lógica médica fique "presa" a tecnologias específicas (ex: um banco SQL ou uma biblioteca de IA específica).
 Evolução Facilitada: Permite substituir fornecedores de wearables ou modelos de IA sem reescrever o motor de regras de diagnóstico.
-Conformidade Técnica: Alinha o projeto com a Regra de Dependência Tática, onde o domínio não conhece a infraestrutura, mitigando os riscos de falhas sistémicas apontados na revisão do Ciclo 1.
+Conformidade Técnica: Alinha o projeto com a Regra de Dependência (Dependency Rule), onde o domínio não conhece a infraestrutura, mitigando os riscos de falhas sistêmicas apontados na revisão do Ciclo 1.
 
 🔴 CICLO 3: Cloud e Resiliência (Fase 3)
 Preencher e entregar no AVA ao final do Ciclo 3.
