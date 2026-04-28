@@ -1,0 +1,1 @@
+# Mini-Projeto-HealthSync---Plataforma-de-Telemedicina-Inteligente-
