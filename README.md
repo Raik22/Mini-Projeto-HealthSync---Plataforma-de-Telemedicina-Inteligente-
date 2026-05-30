@@ -66,7 +66,7 @@ flowchart LR
 - [ADR 0003 — Modelo de Comunicação](docs/adrs/0003-modelo-comunicacao.md)
 
 ## SAD (Fase 4)
-- [SAD Fase 3 - Arquitetura Cloud/Microsserviços](docs/sad/sad-fase3.md)
+- [SAD Fase 3 (Arquitetura Fase 4)](docs/sad/sad-fase3.md)
 
 ## Como executar o projeto localmente
 Este repositório é focado em documentação arquitetural. A implementação dos serviços está prevista para a pasta `/src`.

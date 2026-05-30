@@ -1,7 +1,7 @@
-# SAD — HealthSync (Fase 4: Cloud e Microsserviços)
+# SAD — HealthSync (Fase 3: Arquitetura alvo da Fase 4)
 
 ## 1. Visão executiva
-A HealthSync oferece teleconsultas, monitoramento de pacientes e diagnósticos assistidos por IA em um ecossistema único. A evolução para Cloud e microsserviços busca atender alta disponibilidade, segurança e escalabilidade, preservando a integridade dos dados clínicos.
+A HealthSync oferece teleconsultas, monitoramento de pacientes e diagnósticos assistidos por IA em um ecossistema único. Este SAD (entregue na Fase 3) descreve a **arquitetura alvo da Fase 4**, evoluída para Cloud e microsserviços, visando alta disponibilidade, segurança e escalabilidade, preservando a integridade dos dados clínicos.
 
 ## 2. Escopo do sistema
 - Atendimento remoto (teleconsulta) e agendamento.
