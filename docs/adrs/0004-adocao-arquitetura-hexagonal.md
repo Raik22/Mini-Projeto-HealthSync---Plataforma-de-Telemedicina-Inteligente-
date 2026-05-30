@@ -1,4 +1,4 @@
-# ADR 0001: Adoção de Arquitetura Hexagonal para o Core da HealthSync
+# ADR 0004: Adoção de Arquitetura Hexagonal para o Core da HealthSync
 
 - **Status:** Aceito
 - **Data:** 2026-04-28

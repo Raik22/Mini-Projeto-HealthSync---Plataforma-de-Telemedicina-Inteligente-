@@ -7,7 +7,7 @@ A HealthSync é uma plataforma de telemedicina que integra consultas remotas, mo
 A Fase 4 consolida a arquitetura alvo em nuvem e microsserviços, com foco em escalabilidade horizontal, resiliência e interoperabilidade. Este repositório documenta as decisões arquiteturais, os padrões de comunicação e o desenho de implantação em cloud.
 
 ## Documentação principal
-- [SAD – Fase 4](docs/sad/sad-fase3.md)
+- [SAD – Fase 3 (Arquitetura Fase 4)](docs/sad/sad-fase3.md)
 - ADRs obrigatórios:
   - [ADR 0001 – Estratégia de Nuvem e Escalabilidade](docs/adrs/0001-estrategia-nuvem.md)
   - [ADR 0002 – Padrões de Resiliência](docs/adrs/0002-padrao-resiliencia.md)
