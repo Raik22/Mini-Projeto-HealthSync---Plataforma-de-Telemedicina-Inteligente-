@@ -1,7 +1,7 @@
-# SAD – HealthSync (Fase 3 – Arquitetura Fase 4)
+# SAD – HealthSync (Fase 3)
 
 ## 1. Introdução
-Este Software Architecture Document (SAD) descreve a arquitetura alvo da HealthSync na evolução para cloud e microsserviços. O documento consolida decisões do ciclo da Fase 3 e descreve o estado arquitetural esperado na Fase 4, com foco em escalabilidade, resiliência e interoperabilidade.
+Este Software Architecture Document (SAD) é produzido na Fase 3 e descreve a arquitetura alvo da HealthSync para a Fase 4, com foco em escalabilidade, resiliência e interoperabilidade.
 
 ## 2. Visão executiva
 A HealthSync integra teleconsultas, monitoramento de sinais vitais via wearables e análise preditiva por IA. O objetivo é reduzir a fragmentação do cuidado médico, garantindo acesso contínuo a dados clínicos, alertas em tempo real e apoio à decisão médica.

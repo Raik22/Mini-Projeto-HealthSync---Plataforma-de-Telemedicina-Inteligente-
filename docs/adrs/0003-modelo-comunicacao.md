@@ -8,7 +8,7 @@ O sistema combina fluxos interativos (teleconsulta, prontuário) e ingestão mas
 
 ## Decisão
 Adotar um **modelo híbrido**:
-- **Síncrono (REST/gRPC):** para operações clínicas críticas e leitura imediata de dados do prontuário.
+- **Síncrono (REST):** para operações clínicas críticas e leitura imediata de dados do prontuário.
 - **Assíncrono (eventos):** para ingestão de telemetria, análises de IA e envio de notificações.
 - **Event Bus (Kafka):** como backbone para desacoplamento e reprocessamento seguro.
 
