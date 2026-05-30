@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node / JS
+node_modules/
+dist/
+build/
+coverage/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDEs
+.idea/
+.vscode/
+
+# Environment
+.env
